@@ -524,6 +524,10 @@ _TEXT_GENERATION_EXAMPLE_MODELS = {
         extras={"native-prefix": "vllm-project/small_qwen3_5_20b"},
         max_model_len=4096,
     ),
+    "HridaHybridForCausalLM": _HfExamplesInfo(
+        "zlabs-digital/Hrida-Hybrid-35B",
+        max_model_len=4096,
+    ),
     "Qwen4ExpForCausalLM": _HfExamplesInfo("", is_available_online=False),
     "MellumForCausalLM": _HfExamplesInfo("JetBrains/Mellum2-12B-A2.5B-Base"),
     "Qwen3NextForCausalLM": _HfExamplesInfo(
